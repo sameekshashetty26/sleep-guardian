@@ -1,0 +1,784 @@
+[
+  {
+    "session_id": 1,
+    "date": "2026-10-23",
+    "start_time": "2026-10-23 11:46:12",
+    "end_time": "2026-10-23 11:57:00",
+    "duration_minutes": 10.8,
+    "saved_by": "Stop & save",
+    "data_source": [
+      "esp32"
+    ],
+    "sleep_quality": "Fair",
+    "snoring": {
+      "total_events": 1,
+      "total_duration_minutes": 1.0
+    },
+    "sleep_talking": {
+      "total_events": 1,
+      "total_duration_minutes": 1.0
+    },
+    "position": {
+      "total_transitions": 10,
+      "most_common": "NORMAL",
+      "share_percent": {
+        "NORMAL": 96.6,
+        "TURNED LEFT": 0.8,
+        "TURNED RIGHT": 2.5
+      }
+    },
+    "movement": {
+      "avg_activity": 0.182,
+      "peak_activity": 0.26,
+      "samples": 358
+    },
+    "restlessness_percentage": 0.0,
+    "insomnia": {
+      "score": 0,
+      "level": "low",
+      "episodes": []
+    },
+    "esp32": {
+      "classified_windows": {
+        "SNORING": 1,
+        "NOISE": 1,
+        "SLEEP TALKING": 1
+      },
+      "vibration_activations": 2
+    },
+    "sensors": {
+      "readings": 444,
+      "sound_avg_db": 26.8,
+      "sound_peak_db": 47.5,
+      "weight_avg_g": 64.8
+    }
+  },
+  {
+    "session_id": 2,
+    "date": "2026-10-23",
+    "start_time": "2026-10-23 11:57:01",
+    "end_time": "2026-10-23 11:59:02",
+    "duration_minutes": 2.0,
+    "saved_by": "auto (ESP32 disconnected)",
+    "data_source": [
+      "esp32"
+    ],
+    "sleep_quality": "Good",
+    "snoring": {
+      "total_events": 0,
+      "total_duration_minutes": 0.0
+    },
+    "sleep_talking": {
+      "total_events": 1,
+      "total_duration_minutes": 0.6
+    },
+    "position": {
+      "total_transitions": 0,
+      "most_common": "NORMAL",
+      "share_percent": {
+        "NORMAL": 100.0
+      }
+    },
+    "movement": {
+      "avg_activity": 0.178,
+      "peak_activity": 0.19,
+      "samples": 120
+    },
+    "restlessness_percentage": 0.0,
+    "insomnia": {
+      "score": 0,
+      "level": "low",
+      "episodes": []
+    },
+    "esp32": {
+      "classified_windows": {
+        "SLEEP TALKING": 1,
+        "NOISE": 1
+      },
+      "vibration_activations": 1
+    },
+    "sensors": {
+      "readings": 89,
+      "sound_avg_db": 25.4,
+      "sound_peak_db": 35.7,
+      "weight_avg_g": 29.8
+    }
+  },
+  {
+    "session_id": 3,
+    "date": "2026-10-24",
+    "start_time": "2026-10-24 00:42:30",
+    "end_time": "2026-10-24 00:45:36",
+    "duration_minutes": 3.1,
+    "saved_by": "auto (ESP32 disconnected)",
+    "data_source": [
+      "esp32"
+    ],
+    "sleep_quality": "Good",
+    "snoring": {
+      "total_events": 0,
+      "total_duration_minutes": 0.0
+    },
+    "sleep_talking": {
+      "total_events": 0,
+      "total_duration_minutes": 0.0
+    },
+    "position": {
+      "total_transitions": 3,
+      "most_common": "NORMAL",
+      "share_percent": {
+        "NORMAL": 97.2,
+        "TURNED LEFT": 2.8
+      }
+    },
+    "movement": {
+      "avg_activity": 0.18,
+      "peak_activity": 0.19,
+      "samples": 142
+    },
+    "restlessness_percentage": 0.0,
+    "insomnia": {
+      "score": 0,
+      "level": "low",
+      "episodes": []
+    },
+    "esp32": {
+      "classified_windows": {
+        "NOISE": 2
+      },
+      "vibration_activations": 0
+    },
+    "sensors": {
+      "readings": 106,
+      "sound_avg_db": 21.2,
+      "sound_peak_db": 30.1,
+      "weight_avg_g": 323.9
+    }
+  },
+  {
+    "session_id": 4,
+    "date": "2026-10-24",
+    "start_time": "2026-10-24 00:48:10",
+    "end_time": "2026-10-24 01:04:31",
+    "duration_minutes": 16.3,
+    "saved_by": "auto (ESP32 disconnected)",
+    "data_source": [
+      "esp32"
+    ],
+    "sleep_quality": "Fair",
+    "snoring": {
+      "total_events": 2,
+      "total_duration_minutes": 2.0
+    },
+    "sleep_talking": {
+      "total_events": 5,
+      "total_duration_minutes": 5.0
+    },
+    "position": {
+      "total_transitions": 8,
+      "most_common": "NORMAL",
+      "share_percent": {
+        "NORMAL": 99.4,
+        "TURNED LEFT": 0.6
+      }
+    },
+    "movement": {
+      "avg_activity": 0.184,
+      "peak_activity": 0.41,
+      "samples": 638
+    },
+    "restlessness_percentage": 0.0,
+    "insomnia": {
+      "score": 0,
+      "level": "low",
+      "episodes": []
+    },
+    "esp32": {
+      "classified_windows": {
+        "NOISE": 3,
+        "SNORING": 2,
+        "SLEEP TALKING": 5
+      },
+      "vibration_activations": 7
+    },
+    "sensors": {
+      "readings": 478,
+      "sound_avg_db": 24.7,
+      "sound_peak_db": 45.6,
+      "weight_avg_g": 67.5
+    }
+  },
+  {
+    "session_id": 5,
+    "date": "2026-10-24",
+    "start_time": "2026-10-24 01:05:04",
+    "end_time": "2026-10-24 01:29:38",
+    "duration_minutes": 24.6,
+    "saved_by": "auto (ESP32 disconnected)",
+    "data_source": [
+      "esp32"
+    ],
+    "sleep_quality": "Good",
+    "snoring": {
+      "total_events": 0,
+      "total_duration_minutes": 0.0
+    },
+    "sleep_talking": {
+      "total_events": 6,
+      "total_duration_minutes": 6.0
+    },
+    "position": {
+      "total_transitions": 2,
+      "most_common": "NORMAL",
+      "share_percent": {
+        "NORMAL": 99.8,
+        "TURNED LEFT": 0.2
+      }
+    },
+    "movement": {
+      "avg_activity": 0.183,
+      "peak_activity": 0.42,
+      "samples": 600
+    },
+    "restlessness_percentage": 0.0,
+    "insomnia": {
+      "score": 0,
+      "level": "low",
+      "episodes": []
+    },
+    "esp32": {
+      "classified_windows": {
+        "NOISE": 3,
+        "SLEEP TALKING": 6
+      },
+      "vibration_activations": 6
+    },
+    "sensors": {
+      "readings": 623,
+      "sound_avg_db": 26.6,
+      "sound_peak_db": 46.4,
+      "weight_avg_g": 39.8
+    }
+  },
+  {
+    "session_id": 6,
+    "date": "2026-10-24",
+    "start_time": "2026-10-24 01:30:53",
+    "end_time": "2026-10-24 01:38:42",
+    "duration_minutes": 7.8,
+    "saved_by": "auto (ESP32 disconnected)",
+    "data_source": [
+      "esp32"
+    ],
+    "sleep_quality": "Good",
+    "snoring": {
+      "total_events": 0,
+      "total_duration_minutes": 0.0
+    },
+    "sleep_talking": {
+      "total_events": 1,
+      "total_duration_minutes": 1.0
+    },
+    "position": {
+      "total_transitions": 2,
+      "most_common": "NORMAL",
+      "share_percent": {
+        "NORMAL": 99.6,
+        "TURNED LEFT": 0.4
+      }
+    },
+    "movement": {
+      "avg_activity": 0.184,
+      "peak_activity": 0.32,
+      "samples": 232
+    },
+    "restlessness_percentage": 0.0,
+    "insomnia": {
+      "score": 0,
+      "level": "low",
+      "episodes": []
+    },
+    "esp32": {
+      "classified_windows": {
+        "NOISE": 2,
+        "SLEEP TALKING": 1
+      },
+      "vibration_activations": 1
+    },
+    "sensors": {
+      "readings": 329,
+      "sound_avg_db": 24.2,
+      "sound_peak_db": 40.5,
+      "weight_avg_g": 25.2
+    }
+  },
+  {
+    "session_id": 7,
+    "date": "2026-10-24",
+    "start_time": "2026-10-24 01:39:18",
+    "end_time": "2026-10-24 01:45:39",
+    "duration_minutes": 6.4,
+    "saved_by": "auto (ESP32 disconnected)",
+    "data_source": [
+      "esp32"
+    ],
+    "sleep_quality": "Fair",
+    "snoring": {
+      "total_events": 1,
+      "total_duration_minutes": 1.0
+    },
+    "sleep_talking": {
+      "total_events": 3,
+      "total_duration_minutes": 2.6
+    },
+    "position": {
+      "total_transitions": 6,
+      "most_common": "NORMAL",
+      "share_percent": {
+        "NORMAL": 98.9,
+        "TURNED LEFT": 1.1
+      }
+    },
+    "movement": {
+      "avg_activity": 0.183,
+      "peak_activity": 0.36,
+      "samples": 370
+    },
+    "restlessness_percentage": 0.0,
+    "insomnia": {
+      "score": 0,
+      "level": "low",
+      "episodes": []
+    },
+    "esp32": {
+      "classified_windows": {
+        "SLEEP TALKING": 3,
+        "SNORING": 1
+      },
+      "vibration_activations": 4
+    },
+    "sensors": {
+      "readings": 260,
+      "sound_avg_db": 23.8,
+      "sound_peak_db": 38.6,
+      "weight_avg_g": 173.4
+    }
+  },
+  {
+    "session_id": 8,
+    "date": "2026-10-24",
+    "start_time": "2026-10-24 01:46:15",
+    "end_time": "2026-10-24 01:58:45",
+    "duration_minutes": 12.5,
+    "saved_by": "auto (ESP32 disconnected)",
+    "data_source": [
+      "esp32"
+    ],
+    "sleep_quality": "Fair",
+    "snoring": {
+      "total_events": 1,
+      "total_duration_minutes": 1.0
+    },
+    "sleep_talking": {
+      "total_events": 2,
+      "total_duration_minutes": 2.0
+    },
+    "position": {
+      "total_transitions": 2,
+      "most_common": "NORMAL",
+      "share_percent": {
+        "NORMAL": 99.7,
+        "TURNED LEFT": 0.3
+      }
+    },
+    "movement": {
+      "avg_activity": 0.181,
+      "peak_activity": 0.33,
+      "samples": 321
+    },
+    "restlessness_percentage": 0.0,
+    "insomnia": {
+      "score": 0,
+      "level": "low",
+      "episodes": []
+    },
+    "esp32": {
+      "classified_windows": {
+        "NOISE": 2,
+        "SNORING": 1,
+        "SLEEP TALKING": 2
+      },
+      "vibration_activations": 3
+    },
+    "sensors": {
+      "readings": 510,
+      "sound_avg_db": 26.3,
+      "sound_peak_db": 41.2,
+      "weight_avg_g": 31.6
+    }
+  },
+  {
+    "session_id": 9,
+    "date": "2026-10-24",
+    "start_time": "2026-10-24 01:59:18",
+    "end_time": "2026-10-24 02:04:21",
+    "duration_minutes": 5.0,
+    "saved_by": "auto (ESP32 disconnected)",
+    "data_source": [
+      "esp32"
+    ],
+    "sleep_quality": "Fair",
+    "snoring": {
+      "total_events": 1,
+      "total_duration_minutes": 1.0
+    },
+    "sleep_talking": {
+      "total_events": 2,
+      "total_duration_minutes": 1.7
+    },
+    "position": {
+      "total_transitions": 0,
+      "most_common": "NORMAL",
+      "share_percent": {
+        "NORMAL": 100.0
+      }
+    },
+    "movement": {
+      "avg_activity": 0.18,
+      "peak_activity": 0.4,
+      "samples": 227
+    },
+    "restlessness_percentage": 0.0,
+    "insomnia": {
+      "score": 0,
+      "level": "low",
+      "episodes": []
+    },
+    "esp32": {
+      "classified_windows": {
+        "SLEEP TALKING": 2,
+        "SNORING": 1
+      },
+      "vibration_activations": 3
+    },
+    "sensors": {
+      "readings": 181,
+      "sound_avg_db": 26.7,
+      "sound_peak_db": 38.1,
+      "weight_avg_g": 61.8
+    }
+  },
+  {
+    "session_id": 10,
+    "date": "2026-10-24",
+    "start_time": "2026-10-24 11:12:29",
+    "end_time": "2026-10-24 11:25:11",
+    "duration_minutes": 12.7,
+    "saved_by": "auto (ESP32 disconnected)",
+    "data_source": [
+      "esp32"
+    ],
+    "sleep_quality": "Poor",
+    "snoring": {
+      "total_events": 5,
+      "total_duration_minutes": 5.0
+    },
+    "sleep_talking": {
+      "total_events": 0,
+      "total_duration_minutes": 0.0
+    },
+    "position": {
+      "total_transitions": 32,
+      "most_common": "NORMAL",
+      "share_percent": {
+        "NORMAL": 75.6,
+        "TURNED LEFT": 24.4
+      }
+    },
+    "movement": {
+      "avg_activity": 0.178,
+      "peak_activity": 0.29,
+      "samples": 324
+    },
+    "restlessness_percentage": 0.0,
+    "insomnia": {
+      "score": 0,
+      "level": "low",
+      "episodes": []
+    },
+    "esp32": {
+      "classified_windows": {
+        "SNORING": 5
+      },
+      "vibration_activations": 5
+    },
+    "sensors": {
+      "readings": 347,
+      "sound_avg_db": 29.2,
+      "sound_peak_db": 55.3,
+      "weight_avg_g": 143.5
+    }
+  },
+  {
+    "session_id": 11,
+    "date": "2026-10-24",
+    "start_time": "2026-10-24 11:25:44",
+    "end_time": "2026-10-24 11:31:03",
+    "duration_minutes": 5.3,
+    "saved_by": "auto (ESP32 disconnected)",
+    "data_source": [
+      "esp32"
+    ],
+    "sleep_quality": "Fair",
+    "snoring": {
+      "total_events": 3,
+      "total_duration_minutes": 3.0
+    },
+    "sleep_talking": {
+      "total_events": 1,
+      "total_duration_minutes": 1.0
+    },
+    "position": {
+      "total_transitions": 0,
+      "most_common": "NORMAL",
+      "share_percent": {
+        "NORMAL": 100.0
+      }
+    },
+    "movement": {
+      "avg_activity": 0.183,
+      "peak_activity": 0.29,
+      "samples": 300
+    },
+    "restlessness_percentage": 0.0,
+    "insomnia": {
+      "score": 0,
+      "level": "low",
+      "episodes": []
+    },
+    "esp32": {
+      "classified_windows": {
+        "SLEEP TALKING": 1,
+        "SNORING": 3
+      },
+      "vibration_activations": 4
+    },
+    "sensors": {
+      "readings": 219,
+      "sound_avg_db": 28.2,
+      "sound_peak_db": 41.0,
+      "weight_avg_g": 7.7
+    }
+  },
+  {
+    "session_id": 12,
+    "date": "2026-10-24",
+    "start_time": "2026-10-24 11:32:05",
+    "end_time": "2026-10-24 12:44:10",
+    "duration_minutes": 72.1,
+    "saved_by": "Stop & save",
+    "data_source": [
+      "esp32"
+    ],
+    "sleep_quality": "Good",
+    "snoring": {
+      "total_events": 0,
+      "total_duration_minutes": 0.0
+    },
+    "sleep_talking": {
+      "total_events": 42,
+      "total_duration_minutes": 42.0
+    },
+    "position": {
+      "total_transitions": 28,
+      "most_common": "NORMAL",
+      "share_percent": {
+        "NORMAL": 99.0,
+        "TURNED LEFT": 1.0
+      }
+    },
+    "movement": {
+      "avg_activity": 0.184,
+      "peak_activity": 0.34,
+      "samples": 4122
+    },
+    "restlessness_percentage": 0.0,
+    "insomnia": {
+      "score": 0,
+      "level": "low",
+      "episodes": []
+    },
+    "esp32": {
+      "classified_windows": {
+        "SLEEP TALKING": 42,
+        "NOISE": 25,
+        "NO SIGNIFICANT SOUND": 1
+      },
+      "vibration_activations": 42
+    },
+    "sensors": {
+      "readings": 2861,
+      "sound_avg_db": 26.4,
+      "sound_peak_db": 40.0,
+      "weight_avg_g": 38.3
+    }
+  },
+  {
+    "session_id": 13,
+    "date": "2026-10-24",
+    "start_time": "2026-10-24 13:35:24",
+    "end_time": "2026-10-24 16:09:02",
+    "duration_minutes": 153.6,
+    "saved_by": "auto (ESP32 disconnected)",
+    "data_source": [
+      "esp32"
+    ],
+    "sleep_quality": "Good",
+    "snoring": {
+      "total_events": 0,
+      "total_duration_minutes": 0.0
+    },
+    "sleep_talking": {
+      "total_events": 0,
+      "total_duration_minutes": 0.0
+    },
+    "position": {
+      "total_transitions": 1,
+      "most_common": "NORMAL",
+      "share_percent": {
+        "NORMAL": 82.4,
+        "TURNED LEFT": 13.2,
+        "TURNED RIGHT": 4.4
+      }
+    },
+    "movement": {
+      "avg_activity": 0.18,
+      "peak_activity": 0.21,
+      "samples": 68
+    },
+    "restlessness_percentage": 0.0,
+    "insomnia": {
+      "score": 0,
+      "level": "low",
+      "episodes": []
+    },
+    "esp32": {
+      "classified_windows": {
+        "NOISE": 1
+      },
+      "vibration_activations": 0
+    },
+    "sensors": {
+      "readings": 125,
+      "sound_avg_db": 20.4,
+      "sound_peak_db": 30.3,
+      "weight_avg_g": 37.6
+    }
+  },
+  {
+    "session_id": 14,
+    "date": "2026-10-24",
+    "start_time": "2026-10-24 16:15:59",
+    "end_time": "2026-10-24 16:40:08",
+    "duration_minutes": 24.1,
+    "saved_by": "Stop & save",
+    "data_source": [
+      "esp32"
+    ],
+    "sleep_quality": "Good",
+    "snoring": {
+      "total_events": 0,
+      "total_duration_minutes": 0.0
+    },
+    "sleep_talking": {
+      "total_events": 17,
+      "total_duration_minutes": 16.9
+    },
+    "position": {
+      "total_transitions": 9,
+      "most_common": "NORMAL",
+      "share_percent": {
+        "NORMAL": 94.0,
+        "TURNED LEFT": 6.0
+      }
+    },
+    "movement": {
+      "avg_activity": 0.185,
+      "peak_activity": 0.31,
+      "samples": 1334
+    },
+    "restlessness_percentage": 0.0,
+    "insomnia": {
+      "score": 0,
+      "level": "low",
+      "episodes": []
+    },
+    "esp32": {
+      "classified_windows": {
+        "SLEEP TALKING": 17,
+        "NOISE": 4,
+        "NO SIGNIFICANT SOUND": 1
+      },
+      "vibration_activations": 17
+    },
+    "sensors": {
+      "readings": 952,
+      "sound_avg_db": 25.9,
+      "sound_peak_db": 47.5,
+      "weight_avg_g": 24.2
+    }
+  },
+  {
+    "session_id": 15,
+    "date": "2026-10-24",
+    "start_time": "2026-10-24 16:40:09",
+    "end_time": "2026-10-24 17:55:15",
+    "duration_minutes": 75.1,
+    "saved_by": "auto (ESP32 disconnected)",
+    "data_source": [
+      "esp32"
+    ],
+    "sleep_quality": "Good",
+    "snoring": {
+      "total_events": 0,
+      "total_duration_minutes": 0.0
+    },
+    "sleep_talking": {
+      "total_events": 36,
+      "total_duration_minutes": 35.3
+    },
+    "position": {
+      "total_transitions": 4,
+      "most_common": "NORMAL",
+      "share_percent": {
+        "NORMAL": 99.9,
+        "TURNED RIGHT": 0.1
+      }
+    },
+    "movement": {
+      "avg_activity": 0.185,
+      "peak_activity": 0.33,
+      "samples": 3521
+    },
+    "restlessness_percentage": 0.0,
+    "insomnia": {
+      "score": 0,
+      "level": "low",
+      "episodes": []
+    },
+    "esp32": {
+      "classified_windows": {
+        "SLEEP TALKING": 36,
+        "NOISE": 5,
+        "NO SIGNIFICANT SOUND": 16
+      },
+      "vibration_activations": 36
+    },
+    "sensors": {
+      "readings": 2965,
+      "sound_avg_db": 23.5,
+      "sound_peak_db": 40.6,
+      "weight_avg_g": 20.7
+    }
+  }
+]

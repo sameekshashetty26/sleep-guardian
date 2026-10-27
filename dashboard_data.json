@@ -1,0 +1,815 @@
+{
+  "sleep_quality": "Good",
+  "duration_minutes": 75.1,
+  "total_events": 96,
+  "snoring": {
+    "total_events": 0,
+    "total_duration_seconds": 0,
+    "total_duration_minutes": 0.0,
+    "events": []
+  },
+  "sleep_talking": {
+    "total_events": 36,
+    "total_duration_seconds": 2119,
+    "total_duration_minutes": 35.3,
+    "events": [
+      {
+        "start": 0,
+        "end": 19,
+        "duration": 19
+      },
+      {
+        "start": 1,
+        "end": 61,
+        "duration": 60
+      },
+      {
+        "start": 79,
+        "end": 139,
+        "duration": 60
+      },
+      {
+        "start": 118,
+        "end": 178,
+        "duration": 60
+      },
+      {
+        "start": 161,
+        "end": 221,
+        "duration": 60
+      },
+      {
+        "start": 200,
+        "end": 260,
+        "duration": 60
+      },
+      {
+        "start": 242,
+        "end": 302,
+        "duration": 60
+      },
+      {
+        "start": 392,
+        "end": 452,
+        "duration": 60
+      },
+      {
+        "start": 473,
+        "end": 533,
+        "duration": 60
+      },
+      {
+        "start": 511,
+        "end": 571,
+        "duration": 60
+      },
+      {
+        "start": 552,
+        "end": 612,
+        "duration": 60
+      },
+      {
+        "start": 587,
+        "end": 647,
+        "duration": 60
+      },
+      {
+        "start": 623,
+        "end": 683,
+        "duration": 60
+      },
+      {
+        "start": 662,
+        "end": 722,
+        "duration": 60
+      },
+      {
+        "start": 704,
+        "end": 764,
+        "duration": 60
+      },
+      {
+        "start": 745,
+        "end": 805,
+        "duration": 60
+      },
+      {
+        "start": 784,
+        "end": 844,
+        "duration": 60
+      },
+      {
+        "start": 824,
+        "end": 884,
+        "duration": 60
+      },
+      {
+        "start": 861,
+        "end": 921,
+        "duration": 60
+      },
+      {
+        "start": 897,
+        "end": 957,
+        "duration": 60
+      },
+      {
+        "start": 937,
+        "end": 997,
+        "duration": 60
+      },
+      {
+        "start": 1018,
+        "end": 1078,
+        "duration": 60
+      },
+      {
+        "start": 1058,
+        "end": 1118,
+        "duration": 60
+      },
+      {
+        "start": 1100,
+        "end": 1160,
+        "duration": 60
+      },
+      {
+        "start": 1145,
+        "end": 1205,
+        "duration": 60
+      },
+      {
+        "start": 1223,
+        "end": 1283,
+        "duration": 60
+      },
+      {
+        "start": 1263,
+        "end": 1323,
+        "duration": 60
+      },
+      {
+        "start": 1888,
+        "end": 1948,
+        "duration": 60
+      },
+      {
+        "start": 1929,
+        "end": 1989,
+        "duration": 60
+      },
+      {
+        "start": 1968,
+        "end": 2028,
+        "duration": 60
+      },
+      {
+        "start": 2007,
+        "end": 2067,
+        "duration": 60
+      },
+      {
+        "start": 2045,
+        "end": 2105,
+        "duration": 60
+      },
+      {
+        "start": 2080,
+        "end": 2140,
+        "duration": 60
+      },
+      {
+        "start": 2117,
+        "end": 2177,
+        "duration": 60
+      },
+      {
+        "start": 2155,
+        "end": 2215,
+        "duration": 60
+      },
+      {
+        "start": 2190,
+        "end": 2250,
+        "duration": 60
+      }
+    ]
+  },
+  "position": {
+    "total_transitions": 4,
+    "current": "back",
+    "breakdown": {
+      "side_right": {
+        "seconds": 1,
+        "minutes": 0.0,
+        "percentage": 0.1
+      },
+      "side_left": {
+        "seconds": 0,
+        "minutes": 0.0,
+        "percentage": 0.0
+      },
+      "stomach": {
+        "seconds": 0,
+        "minutes": 0.0,
+        "percentage": 0.0
+      },
+      "back": {
+        "seconds": 1373,
+        "minutes": 22.9,
+        "percentage": 99.9
+      }
+    },
+    "back_sleep_percentage": 99.9
+  },
+  "restlessness_percentage": 0.0,
+  "insomnia": {
+    "score": 0,
+    "level": "low",
+    "factors": {
+      "restless_ratio": 0.0,
+      "longest_streak_minutes": 0,
+      "episode_count": 0
+    },
+    "episodes": []
+  },
+  "timeline": [
+    {
+      "timestamp": 0,
+      "time_formatted": "00:00:00",
+      "event_type": "position_change",
+      "details": "Position changed: unknown \u2192 back"
+    },
+    {
+      "timestamp": 19,
+      "time_formatted": "00:00:19",
+      "event_type": "sleep_talking",
+      "details": "SLEEP TALKING"
+    },
+    {
+      "timestamp": 19,
+      "time_formatted": "00:00:19",
+      "event_type": "vibration_triggered",
+      "details": "ESP32 motor after SLEEP TALKING"
+    },
+    {
+      "timestamp": 61,
+      "time_formatted": "00:01:01",
+      "event_type": "sleep_talking",
+      "details": "SLEEP TALKING"
+    },
+    {
+      "timestamp": 61,
+      "time_formatted": "00:01:01",
+      "event_type": "vibration_triggered",
+      "details": "ESP32 motor after SLEEP TALKING"
+    },
+    {
+      "timestamp": 139,
+      "time_formatted": "00:02:19",
+      "event_type": "sleep_talking",
+      "details": "SLEEP TALKING"
+    },
+    {
+      "timestamp": 139,
+      "time_formatted": "00:02:19",
+      "event_type": "vibration_triggered",
+      "details": "ESP32 motor after SLEEP TALKING"
+    },
+    {
+      "timestamp": 178,
+      "time_formatted": "00:02:58",
+      "event_type": "sleep_talking",
+      "details": "SLEEP TALKING"
+    },
+    {
+      "timestamp": 178,
+      "time_formatted": "00:02:58",
+      "event_type": "vibration_triggered",
+      "details": "ESP32 motor after SLEEP TALKING"
+    },
+    {
+      "timestamp": 221,
+      "time_formatted": "00:03:41",
+      "event_type": "sleep_talking",
+      "details": "SLEEP TALKING"
+    },
+    {
+      "timestamp": 221,
+      "time_formatted": "00:03:41",
+      "event_type": "vibration_triggered",
+      "details": "ESP32 motor after SLEEP TALKING"
+    },
+    {
+      "timestamp": 260,
+      "time_formatted": "00:04:20",
+      "event_type": "sleep_talking",
+      "details": "SLEEP TALKING"
+    },
+    {
+      "timestamp": 260,
+      "time_formatted": "00:04:20",
+      "event_type": "vibration_triggered",
+      "details": "ESP32 motor after SLEEP TALKING"
+    },
+    {
+      "timestamp": 302,
+      "time_formatted": "00:05:02",
+      "event_type": "sleep_talking",
+      "details": "SLEEP TALKING"
+    },
+    {
+      "timestamp": 302,
+      "time_formatted": "00:05:02",
+      "event_type": "vibration_triggered",
+      "details": "ESP32 motor after SLEEP TALKING"
+    },
+    {
+      "timestamp": 342,
+      "time_formatted": "00:05:42",
+      "event_type": "sound_classification",
+      "details": "NOISE"
+    },
+    {
+      "timestamp": 452,
+      "time_formatted": "00:07:32",
+      "event_type": "sleep_talking",
+      "details": "SLEEP TALKING"
+    },
+    {
+      "timestamp": 452,
+      "time_formatted": "00:07:32",
+      "event_type": "vibration_triggered",
+      "details": "ESP32 motor after SLEEP TALKING"
+    },
+    {
+      "timestamp": 495,
+      "time_formatted": "00:08:15",
+      "event_type": "sound_classification",
+      "details": "NOISE"
+    },
+    {
+      "timestamp": 533,
+      "time_formatted": "00:08:53",
+      "event_type": "sleep_talking",
+      "details": "SLEEP TALKING"
+    },
+    {
+      "timestamp": 533,
+      "time_formatted": "00:08:53",
+      "event_type": "vibration_triggered",
+      "details": "ESP32 motor after SLEEP TALKING"
+    },
+    {
+      "timestamp": 571,
+      "time_formatted": "00:09:31",
+      "event_type": "sleep_talking",
+      "details": "SLEEP TALKING"
+    },
+    {
+      "timestamp": 571,
+      "time_formatted": "00:09:31",
+      "event_type": "vibration_triggered",
+      "details": "ESP32 motor after SLEEP TALKING"
+    },
+    {
+      "timestamp": 612,
+      "time_formatted": "00:10:12",
+      "event_type": "sleep_talking",
+      "details": "SLEEP TALKING"
+    },
+    {
+      "timestamp": 612,
+      "time_formatted": "00:10:12",
+      "event_type": "vibration_triggered",
+      "details": "ESP32 motor after SLEEP TALKING"
+    },
+    {
+      "timestamp": 647,
+      "time_formatted": "00:10:47",
+      "event_type": "sleep_talking",
+      "details": "SLEEP TALKING"
+    },
+    {
+      "timestamp": 647,
+      "time_formatted": "00:10:47",
+      "event_type": "vibration_triggered",
+      "details": "ESP32 motor after SLEEP TALKING"
+    },
+    {
+      "timestamp": 683,
+      "time_formatted": "00:11:23",
+      "event_type": "sleep_talking",
+      "details": "SLEEP TALKING"
+    },
+    {
+      "timestamp": 683,
+      "time_formatted": "00:11:23",
+      "event_type": "vibration_triggered",
+      "details": "ESP32 motor after SLEEP TALKING"
+    },
+    {
+      "timestamp": 722,
+      "time_formatted": "00:12:02",
+      "event_type": "sleep_talking",
+      "details": "SLEEP TALKING"
+    },
+    {
+      "timestamp": 722,
+      "time_formatted": "00:12:02",
+      "event_type": "vibration_triggered",
+      "details": "ESP32 motor after SLEEP TALKING"
+    },
+    {
+      "timestamp": 764,
+      "time_formatted": "00:12:44",
+      "event_type": "sleep_talking",
+      "details": "SLEEP TALKING"
+    },
+    {
+      "timestamp": 764,
+      "time_formatted": "00:12:44",
+      "event_type": "vibration_triggered",
+      "details": "ESP32 motor after SLEEP TALKING"
+    },
+    {
+      "timestamp": 805,
+      "time_formatted": "00:13:25",
+      "event_type": "sleep_talking",
+      "details": "SLEEP TALKING"
+    },
+    {
+      "timestamp": 805,
+      "time_formatted": "00:13:25",
+      "event_type": "vibration_triggered",
+      "details": "ESP32 motor after SLEEP TALKING"
+    },
+    {
+      "timestamp": 844,
+      "time_formatted": "00:14:04",
+      "event_type": "sleep_talking",
+      "details": "SLEEP TALKING"
+    },
+    {
+      "timestamp": 844,
+      "time_formatted": "00:14:04",
+      "event_type": "vibration_triggered",
+      "details": "ESP32 motor after SLEEP TALKING"
+    },
+    {
+      "timestamp": 884,
+      "time_formatted": "00:14:44",
+      "event_type": "sleep_talking",
+      "details": "SLEEP TALKING"
+    },
+    {
+      "timestamp": 884,
+      "time_formatted": "00:14:44",
+      "event_type": "vibration_triggered",
+      "details": "ESP32 motor after SLEEP TALKING"
+    },
+    {
+      "timestamp": 921,
+      "time_formatted": "00:15:21",
+      "event_type": "sleep_talking",
+      "details": "SLEEP TALKING"
+    },
+    {
+      "timestamp": 921,
+      "time_formatted": "00:15:21",
+      "event_type": "vibration_triggered",
+      "details": "ESP32 motor after SLEEP TALKING"
+    },
+    {
+      "timestamp": 957,
+      "time_formatted": "00:15:57",
+      "event_type": "sleep_talking",
+      "details": "SLEEP TALKING"
+    },
+    {
+      "timestamp": 957,
+      "time_formatted": "00:15:57",
+      "event_type": "vibration_triggered",
+      "details": "ESP32 motor after SLEEP TALKING"
+    },
+    {
+      "timestamp": 997,
+      "time_formatted": "00:16:37",
+      "event_type": "sleep_talking",
+      "details": "SLEEP TALKING"
+    },
+    {
+      "timestamp": 997,
+      "time_formatted": "00:16:37",
+      "event_type": "vibration_triggered",
+      "details": "ESP32 motor after SLEEP TALKING"
+    },
+    {
+      "timestamp": 1038,
+      "time_formatted": "00:17:18",
+      "event_type": "sound_classification",
+      "details": "NOISE"
+    },
+    {
+      "timestamp": 1078,
+      "time_formatted": "00:17:58",
+      "event_type": "sleep_talking",
+      "details": "SLEEP TALKING"
+    },
+    {
+      "timestamp": 1078,
+      "time_formatted": "00:17:58",
+      "event_type": "vibration_triggered",
+      "details": "ESP32 motor after SLEEP TALKING"
+    },
+    {
+      "timestamp": 1118,
+      "time_formatted": "00:18:38",
+      "event_type": "sleep_talking",
+      "details": "SLEEP TALKING"
+    },
+    {
+      "timestamp": 1118,
+      "time_formatted": "00:18:38",
+      "event_type": "vibration_triggered",
+      "details": "ESP32 motor after SLEEP TALKING"
+    },
+    {
+      "timestamp": 1160,
+      "time_formatted": "00:19:20",
+      "event_type": "sleep_talking",
+      "details": "SLEEP TALKING"
+    },
+    {
+      "timestamp": 1160,
+      "time_formatted": "00:19:20",
+      "event_type": "vibration_triggered",
+      "details": "ESP32 motor after SLEEP TALKING"
+    },
+    {
+      "timestamp": 1205,
+      "time_formatted": "00:20:05",
+      "event_type": "sleep_talking",
+      "details": "SLEEP TALKING"
+    },
+    {
+      "timestamp": 1205,
+      "time_formatted": "00:20:05",
+      "event_type": "vibration_triggered",
+      "details": "ESP32 motor after SLEEP TALKING"
+    },
+    {
+      "timestamp": 1240,
+      "time_formatted": "00:20:40",
+      "event_type": "sound_classification",
+      "details": "NOISE"
+    },
+    {
+      "timestamp": 1283,
+      "time_formatted": "00:21:23",
+      "event_type": "sleep_talking",
+      "details": "SLEEP TALKING"
+    },
+    {
+      "timestamp": 1283,
+      "time_formatted": "00:21:23",
+      "event_type": "vibration_triggered",
+      "details": "ESP32 motor after SLEEP TALKING"
+    },
+    {
+      "timestamp": 1323,
+      "time_formatted": "00:22:03",
+      "event_type": "sleep_talking",
+      "details": "SLEEP TALKING"
+    },
+    {
+      "timestamp": 1323,
+      "time_formatted": "00:22:03",
+      "event_type": "vibration_triggered",
+      "details": "ESP32 motor after SLEEP TALKING"
+    },
+    {
+      "timestamp": 1373,
+      "time_formatted": "00:22:53",
+      "event_type": "position_change",
+      "details": "Position changed: back \u2192 side_right"
+    },
+    {
+      "timestamp": 1374,
+      "time_formatted": "00:22:54",
+      "event_type": "position_change",
+      "details": "Position changed: side_right \u2192 back"
+    },
+    {
+      "timestamp": 1948,
+      "time_formatted": "00:32:28",
+      "event_type": "sleep_talking",
+      "details": "SLEEP TALKING"
+    },
+    {
+      "timestamp": 1948,
+      "time_formatted": "00:32:28",
+      "event_type": "vibration_triggered",
+      "details": "ESP32 motor after SLEEP TALKING"
+    },
+    {
+      "timestamp": 1989,
+      "time_formatted": "00:33:09",
+      "event_type": "sleep_talking",
+      "details": "SLEEP TALKING"
+    },
+    {
+      "timestamp": 1989,
+      "time_formatted": "00:33:09",
+      "event_type": "vibration_triggered",
+      "details": "ESP32 motor after SLEEP TALKING"
+    },
+    {
+      "timestamp": 2028,
+      "time_formatted": "00:33:48",
+      "event_type": "sleep_talking",
+      "details": "SLEEP TALKING"
+    },
+    {
+      "timestamp": 2028,
+      "time_formatted": "00:33:48",
+      "event_type": "vibration_triggered",
+      "details": "ESP32 motor after SLEEP TALKING"
+    },
+    {
+      "timestamp": 2067,
+      "time_formatted": "00:34:27",
+      "event_type": "sleep_talking",
+      "details": "SLEEP TALKING"
+    },
+    {
+      "timestamp": 2067,
+      "time_formatted": "00:34:27",
+      "event_type": "vibration_triggered",
+      "details": "ESP32 motor after SLEEP TALKING"
+    },
+    {
+      "timestamp": 2105,
+      "time_formatted": "00:35:05",
+      "event_type": "sleep_talking",
+      "details": "SLEEP TALKING"
+    },
+    {
+      "timestamp": 2105,
+      "time_formatted": "00:35:05",
+      "event_type": "vibration_triggered",
+      "details": "ESP32 motor after SLEEP TALKING"
+    },
+    {
+      "timestamp": 2140,
+      "time_formatted": "00:35:40",
+      "event_type": "sleep_talking",
+      "details": "SLEEP TALKING"
+    },
+    {
+      "timestamp": 2140,
+      "time_formatted": "00:35:40",
+      "event_type": "vibration_triggered",
+      "details": "ESP32 motor after SLEEP TALKING"
+    },
+    {
+      "timestamp": 2177,
+      "time_formatted": "00:36:17",
+      "event_type": "sleep_talking",
+      "details": "SLEEP TALKING"
+    },
+    {
+      "timestamp": 2177,
+      "time_formatted": "00:36:17",
+      "event_type": "vibration_triggered",
+      "details": "ESP32 motor after SLEEP TALKING"
+    },
+    {
+      "timestamp": 2215,
+      "time_formatted": "00:36:55",
+      "event_type": "sleep_talking",
+      "details": "SLEEP TALKING"
+    },
+    {
+      "timestamp": 2215,
+      "time_formatted": "00:36:55",
+      "event_type": "vibration_triggered",
+      "details": "ESP32 motor after SLEEP TALKING"
+    },
+    {
+      "timestamp": 2250,
+      "time_formatted": "00:37:30",
+      "event_type": "sleep_talking",
+      "details": "SLEEP TALKING"
+    },
+    {
+      "timestamp": 2250,
+      "time_formatted": "00:37:30",
+      "event_type": "vibration_triggered",
+      "details": "ESP32 motor after SLEEP TALKING"
+    },
+    {
+      "timestamp": 2290,
+      "time_formatted": "00:38:10",
+      "event_type": "sound_classification",
+      "details": "NOISE"
+    },
+    {
+      "timestamp": 2330,
+      "time_formatted": "00:38:50",
+      "event_type": "sound_classification",
+      "details": "NO SIGNIFICANT SOUND"
+    },
+    {
+      "timestamp": 2365,
+      "time_formatted": "00:39:25",
+      "event_type": "sound_classification",
+      "details": "NO SIGNIFICANT SOUND"
+    },
+    {
+      "timestamp": 2403,
+      "time_formatted": "00:40:03",
+      "event_type": "sound_classification",
+      "details": "NO SIGNIFICANT SOUND"
+    },
+    {
+      "timestamp": 2444,
+      "time_formatted": "00:40:44",
+      "event_type": "sound_classification",
+      "details": "NO SIGNIFICANT SOUND"
+    },
+    {
+      "timestamp": 2485,
+      "time_formatted": "00:41:25",
+      "event_type": "sound_classification",
+      "details": "NO SIGNIFICANT SOUND"
+    },
+    {
+      "timestamp": 2524,
+      "time_formatted": "00:42:04",
+      "event_type": "sound_classification",
+      "details": "NO SIGNIFICANT SOUND"
+    },
+    {
+      "timestamp": 2564,
+      "time_formatted": "00:42:44",
+      "event_type": "sound_classification",
+      "details": "NO SIGNIFICANT SOUND"
+    },
+    {
+      "timestamp": 2606,
+      "time_formatted": "00:43:26",
+      "event_type": "sound_classification",
+      "details": "NO SIGNIFICANT SOUND"
+    },
+    {
+      "timestamp": 2647,
+      "time_formatted": "00:44:07",
+      "event_type": "sound_classification",
+      "details": "NO SIGNIFICANT SOUND"
+    },
+    {
+      "timestamp": 2687,
+      "time_formatted": "00:44:47",
+      "event_type": "sound_classification",
+      "details": "NO SIGNIFICANT SOUND"
+    },
+    {
+      "timestamp": 2726,
+      "time_formatted": "00:45:26",
+      "event_type": "sound_classification",
+      "details": "NO SIGNIFICANT SOUND"
+    },
+    {
+      "timestamp": 2766,
+      "time_formatted": "00:46:06",
+      "event_type": "sound_classification",
+      "details": "NO SIGNIFICANT SOUND"
+    },
+    {
+      "timestamp": 2806,
+      "time_formatted": "00:46:46",
+      "event_type": "sound_classification",
+      "details": "NO SIGNIFICANT SOUND"
+    },
+    {
+      "timestamp": 2846,
+      "time_formatted": "00:47:26",
+      "event_type": "sound_classification",
+      "details": "NO SIGNIFICANT SOUND"
+    },
+    {
+      "timestamp": 2887,
+      "time_formatted": "00:48:07",
+      "event_type": "sound_classification",
+      "details": "NO SIGNIFICANT SOUND"
+    },
+    {
+      "timestamp": 2927,
+      "time_formatted": "00:48:47",
+      "event_type": "sound_classification",
+      "details": "NO SIGNIFICANT SOUND"
+    }
+  ],
+  "session_id": 15
+}
